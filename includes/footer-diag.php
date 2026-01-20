@@ -17,7 +17,7 @@
                 <div class="links">
                     <ul>
                         <li><a href="about.php#vision">Our Vision</a></li>
-                        <li><a href="#heritage">Our Heritage</a></li>
+                        <li><a href="about.php#heritage">Our Heritage</a></li>
                         <li><a href="#location">Where we are</a></li>
                         <li><a href="#galleryContainer">Gallery</a></li>
                         <li><a href="#privacy">Privacy Policy</a></li>

@@ -225,8 +225,3 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(counter);
     });
 });
-
-function setLanguage(lang) {
-    console.log("Language changed to:", lang);
-    
-}

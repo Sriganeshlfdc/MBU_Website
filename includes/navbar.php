@@ -17,7 +17,7 @@
                     <a href="about.php">About Us <i class="fa-solid fa-caret-down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="about.php#vision"><i class="fa fa-minus"></i> Our Vision</a></li>
-                        <li><a href="#heritage"><i class="fa fa-minus"></i> Our Heritage</a></li>
+                        <li><a href="about.php#heritage"><i class="fa fa-minus"></i> Our Heritage</a></li>
                         <li><a href="#"><i class="fa fa-minus"></i> Aim & Characteristics</a></li>
                     </ul>
                 </li>
