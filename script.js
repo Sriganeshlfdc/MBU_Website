@@ -189,6 +189,41 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+    const counters = document.querySelectorAll('.province_content .number_count');
+    const speed = 200; 
+
+    const animate = (counter) => {
+        const value = +counter.getAttribute('data-target');
+        const data = +counter.innerText;
+        
+        const time = value / speed;
+        
+        if(data < value) {
+            counter.innerText = Math.ceil(data + time);
+            setTimeout(() => animate(counter), 20); 
+        } else {
+            counter.innerText = value;
+        }
+    }
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const counter = entry.target;
+                
+                const targetNumber = counter.innerText; 
+                counter.setAttribute('data-target', targetNumber);
+                
+                counter.innerText = '0'; 
+                animate(counter);
+                
+                observer.unobserve(counter); 
+            }
+        });
+    }, { threshold: 0.5 }); 
+    counters.forEach(counter => {
+        observer.observe(counter);
+    });
 });
 
 function setLanguage(lang) {
