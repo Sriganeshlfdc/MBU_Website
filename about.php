@@ -155,7 +155,7 @@
         <section class="about_uganda">
             <div class="uganda_mission_title">
                     <h1>Bridging Borders: <span>The Uganda Mission</span></h1>
-                    <p class="subtitle">A transformative initiative under the stewardship of the Pune Province</p>
+                    <p class="subtitle">A transformative initiative under the stewardship of the Pune Province.This will be the journal of development.</p>
             </div>
             <div class="uganda_mission">
                 <div class="um_grid">
@@ -163,7 +163,7 @@
                         <img src="Images/um1.webp" alt="image">
                     </div>
                     <div class="um_text">
-                        <p>In 2019 Montfort Brothers asked a question “ Why should the people take up a perilous journey and flee from their land? Why not we do something back in their place?”<br>
+                        <p>In 2019 Montfort Brothers asked a question “ <strong>Why</strong> should the people take up a perilous journey and flee from their land? <strong>Why not</strong> we do something back in their place?”<br><br>
                         Empowering people in difficult conditions through transformational education can make a huge difference in providing respect and dignity.</p>
                     </div>
                 </div>
