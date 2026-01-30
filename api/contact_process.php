@@ -1,5 +1,4 @@
 <?php
-// api/contact_process.php
 require_once 'db_config.php'; 
 
 // Error logging
